@@ -13,7 +13,7 @@ def key_for_min_value(name_hash)
         puts value
       elsif min_value >= value
         min_value = value
-        puts
+        puts value
       end
     end
   return min_value
