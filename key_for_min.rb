@@ -10,10 +10,10 @@ def key_for_min_value(name_hash)
       puts value
       if min_value == nil
         min_value == value
-        puts value
+        puts min_value
       elsif min_value >= value
         min_value = value
-        puts value
+        puts min_value
       end
     end
   return min_value
